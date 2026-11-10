@@ -7,15 +7,15 @@ import {validate} from '../scripts/validation.js';
 const challenges=JSON.parse(await readFile(new URL('../src/challenges.json',import.meta.url),'utf8'));
 const combo=challenges.find(c=>c.date==='2026-11-10'&&c.mode==='combination'),cat=catalogs[combo.catalogId];
 const rank=challenges.find(c=>c.date==='2026-11-10'&&c.mode==='ranking'),rankCat=catalogs[rank.catalogId];
-test('Combinación: se oculta el cálculo hasta cinco nombres y se bloquean repetidos',()=>{
+test('Par 5: se oculta el cálculo hasta cinco nombres y se bloquean repetidos',()=>{
  let s=emptyState();for(const id of ['usa','jpn','fra','ita']){s=commit(s,id,combo,cat);assert.equal(score(combo,cat,s.picks),null);assert.equal(s.completed,false);assert.equal(commit(s,id,combo,cat),s);}
  s=commit(s,'can',combo,cat);assert.equal(score(combo,cat,s.picks).actual,97);assert.equal(score(combo,cat,s.picks).distance,3);assert.equal(score(combo,cat,s.picks).delta,-3);assert.equal(s.completed,true);assert.equal(commit(s,'chn',combo,cat),s);
 });
-test('Combinación: corto y pasado tienen distancia absoluta simétrica; exacta se celebra',()=>{
+test('Par 5: corto y pasado tienen distancia absoluta simétrica; exacta se celebra',()=>{
  const short=score(combo,cat,['usa','jpn','fra','ita','can']);const over=score(combo,cat,['usa','jpn','fra','ned','ita']);const exact=score(combo,cat,['usa','jpn','fra','gbr','nzl']);
  assert.equal(short.distance,3);assert.equal(over.distance,3);assert.equal(over.delta,3);assert.equal(exact.distance,0);assert.equal(exact.exact,true);
 });
-test('Ranking: exacta, puesto menor y puesto mayor; la pelota y el número coinciden',()=>{
+test('Hole in One: exacta, puesto menor y puesto mayor; la pelota y el número coinciden',()=>{
  for(const targetRank of [rank.target-4,rank.target,rank.target+4]){const e=rankCat.entries.find(e=>e.rank===targetRank),s=commit(emptyState(),e.id,rank,rankCat),r=score(rank,rankCat,s.picks);assert.equal(r.distance,Math.abs(targetRank-rank.target));assert.equal(s.completed,true);const p=ballDestination(rank,r,1);assert.equal(Math.sign(p.x-650),Math.sign(targetRank-rank.target));}
 });
 test('Búsqueda sin tildes, símbolos, variantes y alias devuelve una sola entidad',()=>{
@@ -30,7 +30,7 @@ test('El día cambia a medianoche de Madrid en invierno, verano y cambios de hor
 });
 test('Archivo, versión, fecha y práctica tienen las claves previstas',()=>{const keys=[stateKey(combo),stateKey({...combo,version:2}),stateKey({...combo,date:'2026-11-09'}),stateKey(rank),stateKey(combo,'practice','a'),stateKey(combo,'practice','b')];assert.equal(new Set(keys).size,6);});
 test('Las cuatro primeras trayectorias no dependen de valores ocultos',()=>{for(let i=1;i<5;i++){assert.deepEqual(ballDestination(combo,{delta:-100000},i),ballDestination({...combo,target:999999},{delta:99999},i));assert.equal(ballDestination(combo,null,i).hidden,true);}assert.notEqual(ballDestination(combo,{delta:-3},5).x,ballDestination(combo,{delta:3},5).x);});
-test('Compartir incluye fecha, modalidad y distancia, nunca nombres, cifras individuales ni respuesta exacta',()=>{const result=score(combo,cat,['usa','jpn','fra','ita','can']),text=shareText(combo,cat,result);assert.match(text,/10 de noviembre de 2026/);assert.match(text,/Combinación/);assert.match(text,/A 3 oros/);for(const entry of result.entries)assert.equal(text.includes(entry.name),false);assert.equal(text.includes('97'),false);assert.match(shareText(combo,cat,result,'practice'),/Práctica/);const e=rankCat.entries.find(e=>e.rank===rank.target+1),r=score(rank,rankCat,[e.id]);assert.equal(shareText(rank,rankCat,r).includes(e.name),false);});
+test('Compartir incluye fecha, modalidad y distancia, nunca nombres, cifras individuales ni respuesta exacta',()=>{const result=score(combo,cat,['usa','jpn','fra','ita','can']),text=shareText(combo,cat,result);assert.match(text,/10 de noviembre de 2026/);assert.match(text,/Par 5/);assert.match(text,/A 3 oros/);for(const entry of result.entries)assert.equal(text.includes(entry.name),false);assert.equal(text.includes('97'),false);assert.match(shareText(combo,cat,result,'practice'),/Práctica/);const e=rankCat.entries.find(e=>e.rank===rank.target+1),r=score(rank,rankCat,[e.id]);assert.equal(shareText(rank,rankCat,r).includes(e.name),false);});
 test('Calendario: misma fecha mismo reto, 14 por modalidad y agotamiento explícito',()=>{for(const mode of ['combination','ranking'])assert.equal(challenges.filter(c=>c.mode===mode).length,14);assert.equal(challenges.filter(c=>c.date==='2026-11-21').length,0);assert.equal(challenges.filter(c=>c.date==='2026-11-09').length,2);});
 test('Validador rechaza datos incompletos, IDs, fechas, objetivos y empates ambiguos',()=>{
  const badCats=structuredClone(catalogs),bad=structuredClone(challenges);delete badCats[combo.catalogId].source;badCats[combo.catalogId].entries[1].id=badCats[combo.catalogId].entries[0].id;bad[1].target=9999;bad[2].date=bad[0].date;bad[3].id=bad[1].id;

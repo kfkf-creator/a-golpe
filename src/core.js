@@ -39,7 +39,7 @@ export function ballDestination(challenge,result,shot) {
  return {x:650+offset,y:260,hidden:false};
 }
 export function shareText(challenge,catalog,result,context='daily') {
- const mode=challenge.mode==='combination'?'Combinación':'Ranking';
+ const mode=challenge.mode==='combination'?'Par 5':'Hole in One';
  const unit=challenge.mode==='ranking'?'puestos':catalog.unit;
  return `⛳ A Golpe\n${dateLabel(challenge.date)} · ${mode}${context==='practice'?' · Práctica':context==='archive'?' · Archivo':''}\n${challenge.mode==='combination'?'● ● ● ● ●':'●'} → ⚑\n${result.exact?(challenge.mode==='ranking'?'¡Hoyo en uno!':'¡Diana exacta!'):`A ${formatNumber(result.distance)} ${unit} del hoyo`}\n¿Te has quedado más cerca?`;
 }
