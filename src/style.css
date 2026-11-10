@@ -65,3 +65,11 @@
   line-height: 1.55;
   color: var(--ink);
 }
+.brand-symbol { border: 0; border-radius: 15px; flex-shrink: 0; }
+.card-top { justify-content: flex-end; }
+.field-header h1.challenge-prompt {
+  max-width: 38ch;
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
+  line-height: 1.18;
+  color: var(--ink);
+}

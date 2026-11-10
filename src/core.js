@@ -41,7 +41,7 @@ export function ballDestination(challenge,result,shot) {
 export function shareText(challenge,catalog,result,context='daily') {
  const mode=challenge.mode==='combination'?'Combinación':'Ranking';
  const unit=challenge.mode==='ranking'?'puestos':catalog.unit;
- return `⛳ Golf de cultura general\n${dateLabel(challenge.date)} · ${mode}${context==='practice'?' · Práctica':context==='archive'?' · Archivo':''}\n${challenge.mode==='combination'?'● ● ● ● ●':'●'} → ⚑\n${result.exact?(challenge.mode==='ranking'?'¡Hoyo en uno!':'¡Diana exacta!'):`A ${formatNumber(result.distance)} ${unit} del hoyo`}\n¿Te has quedado más cerca?`;
+ return `⛳ A Golpe\n${dateLabel(challenge.date)} · ${mode}${context==='practice'?' · Práctica':context==='archive'?' · Archivo':''}\n${challenge.mode==='combination'?'● ● ● ● ●':'●'} → ⚑\n${result.exact?(challenge.mode==='ranking'?'¡Hoyo en uno!':'¡Diana exacta!'):`A ${formatNumber(result.distance)} ${unit} del hoyo`}\n¿Te has quedado más cerca?`;
 }
 export function* combinations(entries,k=5,start=0,prefix=[]) {
  if(k===0){yield prefix;return;}
