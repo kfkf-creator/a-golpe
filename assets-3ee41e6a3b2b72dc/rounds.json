@@ -1,0 +1,1495 @@
+[
+  {
+    "id": "2026-11-07-h1-v4",
+    "date": "2026-11-07",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "oscars-favorites",
+    "target": 35,
+    "prompt": "Suma 35 premios Óscar con 5 películas.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "oscars-favorites-7",
+      "oscars-favorites-10",
+      "oscars-favorites-11",
+      "oscars-favorites-12",
+      "oscars-favorites-14"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-07-h2-v4",
+    "date": "2026-11-07",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "eurovision-wins-2025",
+    "target": 10,
+    "prompt": "Suma 10 victorias en Eurovisión con 3 países.",
+    "version": 4,
+    "shots": 3,
+    "solution": [
+      "eurovision-wins-2025-6",
+      "eurovision-wins-2025-7",
+      "eurovision-wins-2025-8"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-07-h3-v4",
+    "date": "2026-11-07",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "world-cup-titles-2022",
+    "target": 12,
+    "prompt": "Suma 12 Mundiales con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "world-cup-titles-2022-0",
+      "world-cup-titles-2022-1",
+      "world-cup-titles-2022-3"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-07-h4-v4",
+    "date": "2026-11-07",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 13,
+    "prompt": "¿Cuál es el 13.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-07-h5-v4",
+    "date": "2026-11-07",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 13,
+    "prompt": "¿Qué película de Pixar se estrenó en 2012?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-07-h6-v4",
+    "date": "2026-11-07",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "planet-size-order",
+    "target": 4,
+    "prompt": "¿Cuál es el cuarto planeta más grande?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-08-h1-v4",
+    "date": "2026-11-08",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "european-cities",
+    "target": 3000,
+    "prompt": "Suma 3.000 km desde Madrid con 5 ciudades europeas.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "1159114539",
+      "1159115621",
+      "1159115639",
+      "1159115665",
+      "1159115703"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-08-h2-v4",
+    "date": "2026-11-08",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "world-cup-titles-2022",
+    "target": 10,
+    "prompt": "Suma 10 Mundiales con 3 selecciones.",
+    "version": 4,
+    "shots": 3,
+    "solution": [
+      "world-cup-titles-2022-1",
+      "world-cup-titles-2022-2",
+      "world-cup-titles-2022-4"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-08-h3-v4",
+    "date": "2026-11-08",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "oscars-favorites",
+    "target": 35,
+    "prompt": "Suma 35 premios Óscar con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "oscars-favorites-4",
+      "oscars-favorites-5",
+      "oscars-favorites-6",
+      "oscars-favorites-7"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-08-h4-v4",
+    "date": "2026-11-08",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 14,
+    "prompt": "¿Cuál es el 14.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-08-h5-v4",
+    "date": "2026-11-08",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "planet-size-order",
+    "target": 6,
+    "prompt": "¿Cuál es el sexto planeta más grande?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-08-h6-v4",
+    "date": "2026-11-08",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "first-world-cup-title",
+    "target": 3,
+    "prompt": "¿Qué selección ganó su primer Mundial en 1954?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-09-h1-v4",
+    "date": "2026-11-09",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "world-population-2023",
+    "target": 250,
+    "prompt": "Suma 250 millones de habitantes con 3 países.",
+    "version": 4,
+    "shots": 3,
+    "solution": [
+      "VN",
+      "DE",
+      "TZ"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-09-h2-v4",
+    "date": "2026-11-09",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "oscars-favorites",
+    "target": 45,
+    "prompt": "Suma 45 premios Óscar con 5 películas.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "oscars-favorites-3",
+      "oscars-favorites-4",
+      "oscars-favorites-5",
+      "oscars-favorites-6",
+      "oscars-favorites-7"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-09-h3-v4",
+    "date": "2026-11-09",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "eurovision-wins-2025",
+    "target": 15,
+    "prompt": "Suma 15 victorias en Eurovisión con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "eurovision-wins-2025-2",
+      "eurovision-wins-2025-3",
+      "eurovision-wins-2025-4"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-09-h4-v4",
+    "date": "2026-11-09",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 15,
+    "prompt": "¿Cuál es el 15.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-09-h5-v4",
+    "date": "2026-11-09",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 14,
+    "prompt": "¿Qué película de Pixar se estrenó en 2013?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-09-h6-v4",
+    "date": "2026-11-09",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "planet-size-order",
+    "target": 5,
+    "prompt": "¿Cuál es el quinto planeta más grande?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-10-h1-v4",
+    "date": "2026-11-10",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "european-cities",
+    "target": 2000,
+    "prompt": "Suma 2.000 km desde Madrid con 3 ciudades europeas.",
+    "version": 4,
+    "shots": 3,
+    "solution": [
+      "1159114441",
+      "1159115621",
+      "1159115639"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-10-h2-v4",
+    "date": "2026-11-10",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "eurovision-wins-2025",
+    "target": 20,
+    "prompt": "Suma 20 victorias en Eurovisión con 5 países.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "eurovision-wins-2025-2",
+      "eurovision-wins-2025-3",
+      "eurovision-wins-2025-6",
+      "eurovision-wins-2025-7",
+      "eurovision-wins-2025-8"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-10-h3-v4",
+    "date": "2026-11-10",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "oscars-favorites",
+    "target": 20,
+    "prompt": "Suma 20 premios Óscar con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "oscars-favorites-0",
+      "oscars-favorites-4"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-10-h4-v4",
+    "date": "2026-11-10",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 3,
+    "prompt": "¿Cuál es el 3.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-10-h5-v4",
+    "date": "2026-11-10",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 3,
+    "prompt": "¿Qué película de Pixar se estrenó en 1999?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-10-h6-v4",
+    "date": "2026-11-10",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "planets-from-sun",
+    "target": 3,
+    "prompt": "¿Cuál es el tercer planeta desde el Sol?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-11-h1-v4",
+    "date": "2026-11-11",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "oscars-favorites",
+    "target": 40,
+    "prompt": "Suma 40 premios Óscar con 5 películas.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "oscars-favorites-4",
+      "oscars-favorites-7",
+      "oscars-favorites-8",
+      "oscars-favorites-9",
+      "oscars-favorites-10"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-11-h2-v4",
+    "date": "2026-11-11",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "european-cities",
+    "target": 2500,
+    "prompt": "Suma 2.500 km desde Madrid con 3 ciudades europeas.",
+    "version": 4,
+    "shots": 3,
+    "solution": [
+      "1159114457",
+      "1159114521",
+      "1159115685"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-11-h3-v4",
+    "date": "2026-11-11",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "world-cup-titles-2022",
+    "target": 10,
+    "prompt": "Suma 10 Mundiales con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "world-cup-titles-2022-1",
+      "world-cup-titles-2022-2",
+      "world-cup-titles-2022-4"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-11-h4-v4",
+    "date": "2026-11-11",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 1,
+    "prompt": "¿Cuál es el país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-11-h5-v4",
+    "date": "2026-11-11",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "planets-from-sun",
+    "target": 6,
+    "prompt": "¿Cuál es el sexto planeta desde el Sol?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-11-h6-v4",
+    "date": "2026-11-11",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "first-world-cup-title",
+    "target": 1,
+    "prompt": "¿Qué selección ganó el primer Mundial?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-12-h1-v4",
+    "date": "2026-11-12",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "world-population-2023",
+    "target": 300,
+    "prompt": "Suma 300 millones de habitantes con 6 países.",
+    "version": 4,
+    "shots": 6,
+    "solution": [
+      "KE",
+      "CO",
+      "SD",
+      "UG",
+      "ES",
+      "DZ"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-12-h2-v4",
+    "date": "2026-11-12",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "oscars-favorites",
+    "target": 30,
+    "prompt": "Suma 30 premios Óscar con 5 películas.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "oscars-favorites-10",
+      "oscars-favorites-14",
+      "oscars-favorites-15",
+      "oscars-favorites-16",
+      "oscars-favorites-18"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-12-h3-v4",
+    "date": "2026-11-12",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "eurovision-wins-2025",
+    "target": 10,
+    "prompt": "Suma 10 victorias en Eurovisión con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "eurovision-wins-2025-2",
+      "eurovision-wins-2025-3"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-12-h4-v4",
+    "date": "2026-11-12",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 2,
+    "prompt": "¿Cuál es el 2.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-12-h5-v4",
+    "date": "2026-11-12",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 5,
+    "prompt": "¿Qué película de Pixar se estrenó en 2003?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-12-h6-v4",
+    "date": "2026-11-12",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "planets-from-sun",
+    "target": 1,
+    "prompt": "¿Qué planeta está más cerca del Sol?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-13-h1-v4",
+    "date": "2026-11-13",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "eurovision-wins-2025",
+    "target": 25,
+    "prompt": "Suma 25 victorias en Eurovisión con 7 países.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "eurovision-wins-2025-2",
+      "eurovision-wins-2025-3",
+      "eurovision-wins-2025-7",
+      "eurovision-wins-2025-8",
+      "eurovision-wins-2025-9",
+      "eurovision-wins-2025-10",
+      "eurovision-wins-2025-11"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-13-h2-v4",
+    "date": "2026-11-13",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "world-population-2023",
+    "target": 200,
+    "prompt": "Suma 200 millones de habitantes con 5 países.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "IQ",
+      "CA",
+      "YE",
+      "UA",
+      "MA"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-13-h3-v4",
+    "date": "2026-11-13",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "european-cities",
+    "target": 6000,
+    "prompt": "Suma 6.000 km desde Madrid con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "1159113425",
+      "1159113441"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-13-h4-v4",
+    "date": "2026-11-13",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 5,
+    "prompt": "¿Cuál es el 5.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-13-h5-v4",
+    "date": "2026-11-13",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 1,
+    "prompt": "¿Cuál fue la primera película de Pixar?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-13-h6-v4",
+    "date": "2026-11-13",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "first-world-cup-title",
+    "target": 8,
+    "prompt": "¿Qué selección ganó su primer Mundial en 2010?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-14-h1-v4",
+    "date": "2026-11-14",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "european-cities",
+    "target": 4000,
+    "prompt": "Suma 4.000 km desde Madrid con 5 ciudades europeas.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "1159114075",
+      "1159114457",
+      "1159115621",
+      "1159115639",
+      "1159115685"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-14-h2-v4",
+    "date": "2026-11-14",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "world-cup-titles-2022",
+    "target": 18,
+    "prompt": "Suma 18 Mundiales con 6 selecciones.",
+    "version": 4,
+    "shots": 6,
+    "solution": [
+      "world-cup-titles-2022-0",
+      "world-cup-titles-2022-1",
+      "world-cup-titles-2022-2",
+      "world-cup-titles-2022-4",
+      "world-cup-titles-2022-5",
+      "world-cup-titles-2022-6"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-14-h3-v4",
+    "date": "2026-11-14",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "oscars-favorites",
+    "target": 25,
+    "prompt": "Suma 25 premios Óscar con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "oscars-favorites-4",
+      "oscars-favorites-7",
+      "oscars-favorites-8"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-14-h4-v4",
+    "date": "2026-11-14",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 4,
+    "prompt": "¿Cuál es el 4.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-14-h5-v4",
+    "date": "2026-11-14",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 6,
+    "prompt": "¿Qué película de Pixar se estrenó en 2004?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-14-h6-v4",
+    "date": "2026-11-14",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "planets-from-sun",
+    "target": 5,
+    "prompt": "¿Cuál es el quinto planeta desde el Sol?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-15-h1-v4",
+    "date": "2026-11-15",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "oscars-favorites",
+    "target": 45,
+    "prompt": "Suma 45 premios Óscar con 6 películas.",
+    "version": 4,
+    "shots": 6,
+    "solution": [
+      "oscars-favorites-7",
+      "oscars-favorites-8",
+      "oscars-favorites-9",
+      "oscars-favorites-10",
+      "oscars-favorites-11",
+      "oscars-favorites-12"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-15-h2-v4",
+    "date": "2026-11-15",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "eurovision-wins-2025",
+    "target": 15,
+    "prompt": "Suma 15 victorias en Eurovisión con 3 países.",
+    "version": 4,
+    "shots": 3,
+    "solution": [
+      "eurovision-wins-2025-2",
+      "eurovision-wins-2025-3",
+      "eurovision-wins-2025-4"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-15-h3-v4",
+    "date": "2026-11-15",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "world-population-2023",
+    "target": 150,
+    "prompt": "Suma 150 millones de habitantes con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "DE",
+      "TZ"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-15-h4-v4",
+    "date": "2026-11-15",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "pixar-first-films",
+    "target": 2,
+    "prompt": "¿Qué película de Pixar se estrenó en 1998?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-15-h5-v4",
+    "date": "2026-11-15",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "planets-from-sun",
+    "target": 2,
+    "prompt": "¿Cuál es el segundo planeta desde el Sol?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-15-h6-v4",
+    "date": "2026-11-15",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "first-world-cup-title",
+    "target": 2,
+    "prompt": "¿Qué selección ganó su primer Mundial en 1934?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-16-h1-v4",
+    "date": "2026-11-16",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "world-population-2023",
+    "target": 500,
+    "prompt": "Suma 500 millones de habitantes con 7 países.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "IR",
+      "DE",
+      "GB",
+      "FR",
+      "TZ",
+      "ZA",
+      "IT"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-16-h2-v4",
+    "date": "2026-11-16",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "european-cities",
+    "target": 3500,
+    "prompt": "Suma 3.500 km desde Madrid con 5 ciudades europeas.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "1159114457",
+      "1159114521",
+      "1159115621",
+      "1159115639",
+      "1159115665"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-16-h3-v4",
+    "date": "2026-11-16",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "world-cup-titles-2022",
+    "target": 15,
+    "prompt": "Suma 15 Mundiales con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "world-cup-titles-2022-0",
+      "world-cup-titles-2022-1",
+      "world-cup-titles-2022-2",
+      "world-cup-titles-2022-4"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-16-h4-v4",
+    "date": "2026-11-16",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 6,
+    "prompt": "¿Cuál es el 6.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-16-h5-v4",
+    "date": "2026-11-16",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 8,
+    "prompt": "¿Qué película de Pixar se estrenó en 2007?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-16-h6-v4",
+    "date": "2026-11-16",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "planets-from-sun",
+    "target": 4,
+    "prompt": "¿Cuál es el cuarto planeta desde el Sol?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-17-h1-v4",
+    "date": "2026-11-17",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "world-cup-titles-2022",
+    "target": 15,
+    "prompt": "Suma 15 Mundiales con 5 selecciones.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "world-cup-titles-2022-1",
+      "world-cup-titles-2022-2",
+      "world-cup-titles-2022-3",
+      "world-cup-titles-2022-4",
+      "world-cup-titles-2022-5"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-17-h2-v4",
+    "date": "2026-11-17",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "oscars-favorites",
+    "target": 50,
+    "prompt": "Suma 50 premios Óscar con 7 películas.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "oscars-favorites-7",
+      "oscars-favorites-8",
+      "oscars-favorites-10",
+      "oscars-favorites-11",
+      "oscars-favorites-12",
+      "oscars-favorites-13",
+      "oscars-favorites-14"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-17-h3-v4",
+    "date": "2026-11-17",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "eurovision-wins-2025",
+    "target": 20,
+    "prompt": "Suma 20 victorias en Eurovisión con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "eurovision-wins-2025-2",
+      "eurovision-wins-2025-3",
+      "eurovision-wins-2025-4",
+      "eurovision-wins-2025-5"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-17-h4-v4",
+    "date": "2026-11-17",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 7,
+    "prompt": "¿Cuál es el 7.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-17-h5-v4",
+    "date": "2026-11-17",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 4,
+    "prompt": "¿Qué película de Pixar se estrenó en 2001?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-17-h6-v4",
+    "date": "2026-11-17",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "first-world-cup-title",
+    "target": 4,
+    "prompt": "¿Qué selección ganó su primer Mundial en 1958?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-18-h1-v4",
+    "date": "2026-11-18",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "eurovision-wins-2025",
+    "target": 22,
+    "prompt": "Suma 22 victorias en Eurovisión con 6 países.",
+    "version": 4,
+    "shots": 6,
+    "solution": [
+      "eurovision-wins-2025-2",
+      "eurovision-wins-2025-3",
+      "eurovision-wins-2025-7",
+      "eurovision-wins-2025-8",
+      "eurovision-wins-2025-9",
+      "eurovision-wins-2025-10"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-18-h2-v4",
+    "date": "2026-11-18",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "world-population-2023",
+    "target": 150,
+    "prompt": "Suma 150 millones de habitantes con 3 países.",
+    "version": 4,
+    "shots": 3,
+    "solution": [
+      "CO",
+      "SD",
+      "ES"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-18-h3-v4",
+    "date": "2026-11-18",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "european-cities",
+    "target": 6500,
+    "prompt": "Suma 6.500 km desde Madrid con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "1159113471",
+      "1159113485"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-18-h4-v4",
+    "date": "2026-11-18",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 8,
+    "prompt": "¿Cuál es el 8.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-18-h5-v4",
+    "date": "2026-11-18",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 7,
+    "prompt": "¿Qué película de Pixar se estrenó en 2006?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-18-h6-v4",
+    "date": "2026-11-18",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "planets-from-sun",
+    "target": 7,
+    "prompt": "¿Cuál es el séptimo planeta desde el Sol?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-19-h1-v4",
+    "date": "2026-11-19",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "european-cities",
+    "target": 6000,
+    "prompt": "Suma 6.000 km desde Madrid con 7 ciudades europeas.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "1159114441",
+      "1159114457",
+      "1159114477",
+      "1159114501",
+      "1159115621",
+      "1159115639",
+      "1159115665"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-19-h2-v4",
+    "date": "2026-11-19",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "oscars-favorites",
+    "target": 20,
+    "prompt": "Suma 20 premios Óscar con 3 películas.",
+    "version": 4,
+    "shots": 3,
+    "solution": [
+      "oscars-favorites-10",
+      "oscars-favorites-11",
+      "oscars-favorites-14"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-19-h3-v4",
+    "date": "2026-11-19",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "world-cup-titles-2022",
+    "target": 20,
+    "prompt": "Suma 20 Mundiales con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "world-cup-titles-2022-0",
+      "world-cup-titles-2022-1",
+      "world-cup-titles-2022-2",
+      "world-cup-titles-2022-3",
+      "world-cup-titles-2022-4",
+      "world-cup-titles-2022-5"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-19-h4-v4",
+    "date": "2026-11-19",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 9,
+    "prompt": "¿Cuál es el 9.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-19-h5-v4",
+    "date": "2026-11-19",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "planets-from-sun",
+    "target": 8,
+    "prompt": "¿Cuál es el octavo planeta desde el Sol?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-19-h6-v4",
+    "date": "2026-11-19",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "first-world-cup-title",
+    "target": 5,
+    "prompt": "¿Qué selección ganó su primer Mundial en 1966?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-20-h1-v4",
+    "date": "2026-11-20",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "oscars-favorites",
+    "target": 25,
+    "prompt": "Suma 25 premios Óscar con 3 películas.",
+    "version": 4,
+    "shots": 3,
+    "solution": [
+      "oscars-favorites-4",
+      "oscars-favorites-7",
+      "oscars-favorites-8"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-20-h2-v4",
+    "date": "2026-11-20",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "eurovision-wins-2025",
+    "target": 30,
+    "prompt": "Suma 30 victorias en Eurovisión con 7 países.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "eurovision-wins-2025-2",
+      "eurovision-wins-2025-3",
+      "eurovision-wins-2025-4",
+      "eurovision-wins-2025-5",
+      "eurovision-wins-2025-6",
+      "eurovision-wins-2025-7",
+      "eurovision-wins-2025-8"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-20-h3-v4",
+    "date": "2026-11-20",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "world-population-2023",
+    "target": 200,
+    "prompt": "Suma 200 millones de habitantes con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "PH",
+      "TR"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-20-h4-v4",
+    "date": "2026-11-20",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 10,
+    "prompt": "¿Cuál es el 10.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-20-h5-v4",
+    "date": "2026-11-20",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 9,
+    "prompt": "¿Qué película de Pixar se estrenó en 2008?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-20-h6-v4",
+    "date": "2026-11-20",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "planet-size-order",
+    "target": 1,
+    "prompt": "¿Cuál es el planeta más grande?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-21-h1-v4",
+    "date": "2026-11-21",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "world-population-2023",
+    "target": 400,
+    "prompt": "Suma 400 millones de habitantes con 5 países.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "IR",
+      "TR",
+      "DE",
+      "TH",
+      "GB"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-21-h2-v4",
+    "date": "2026-11-21",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "world-cup-titles-2022",
+    "target": 20,
+    "prompt": "Suma 20 Mundiales con 7 selecciones.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "world-cup-titles-2022-0",
+      "world-cup-titles-2022-1",
+      "world-cup-titles-2022-2",
+      "world-cup-titles-2022-3",
+      "world-cup-titles-2022-4",
+      "world-cup-titles-2022-6",
+      "world-cup-titles-2022-7"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-21-h3-v4",
+    "date": "2026-11-21",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "oscars-favorites",
+    "target": 30,
+    "prompt": "Suma 30 premios Óscar con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "oscars-favorites-0",
+      "oscars-favorites-3",
+      "oscars-favorites-4"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-21-h4-v4",
+    "date": "2026-11-21",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "pixar-first-films",
+    "target": 10,
+    "prompt": "¿Qué película de Pixar se estrenó en 2009?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-21-h5-v4",
+    "date": "2026-11-21",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "planet-size-order",
+    "target": 2,
+    "prompt": "¿Cuál es el segundo planeta más grande?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-21-h6-v4",
+    "date": "2026-11-21",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "first-world-cup-title",
+    "target": 6,
+    "prompt": "¿Qué selección ganó su primer Mundial en 1978?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-22-h1-v4",
+    "date": "2026-11-22",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "european-cities",
+    "target": 5000,
+    "prompt": "Suma 5.000 km desde Madrid con 6 ciudades europeas.",
+    "version": 4,
+    "shots": 6,
+    "solution": [
+      "1159114441",
+      "1159114477",
+      "1159114539",
+      "1159115621",
+      "1159115639",
+      "1159115665"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-22-h2-v4",
+    "date": "2026-11-22",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "eurovision-wins-2025",
+    "target": 18,
+    "prompt": "Suma 18 victorias en Eurovisión con 5 países.",
+    "version": 4,
+    "shots": 5,
+    "solution": [
+      "eurovision-wins-2025-2",
+      "eurovision-wins-2025-6",
+      "eurovision-wins-2025-7",
+      "eurovision-wins-2025-8",
+      "eurovision-wins-2025-9"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-22-h3-v4",
+    "date": "2026-11-22",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "oscars-favorites",
+    "target": 15,
+    "prompt": "Suma 15 premios Óscar con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "oscars-favorites-7",
+      "oscars-favorites-10"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-22-h4-v4",
+    "date": "2026-11-22",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 11,
+    "prompt": "¿Cuál es el 11.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-22-h5-v4",
+    "date": "2026-11-22",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 11,
+    "prompt": "¿Qué película de Pixar se estrenó en 2010?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-22-h6-v4",
+    "date": "2026-11-22",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "planet-size-order",
+    "target": 3,
+    "prompt": "¿Cuál es el tercer planeta más grande?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-23-h1-v4",
+    "date": "2026-11-23",
+    "mode": "par",
+    "hole": 1,
+    "catalogId": "eurovision-wins-2025",
+    "target": 12,
+    "prompt": "Suma 12 victorias en Eurovisión con 3 países.",
+    "version": 4,
+    "shots": 3,
+    "solution": [
+      "eurovision-wins-2025-2",
+      "eurovision-wins-2025-6",
+      "eurovision-wins-2025-7"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-23-h2-v4",
+    "date": "2026-11-23",
+    "mode": "blind",
+    "hole": 2,
+    "catalogId": "european-cities",
+    "target": 7000,
+    "prompt": "Suma 7.000 km desde Madrid con 7 ciudades europeas.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "1159114441",
+      "1159114477",
+      "1159114501",
+      "1159114539",
+      "1159114557",
+      "1159115621",
+      "1159115639"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-23-h3-v4",
+    "date": "2026-11-23",
+    "mode": "under",
+    "hole": 3,
+    "catalogId": "world-population-2023",
+    "target": 300,
+    "prompt": "Suma 300 millones de habitantes con el mínimo de golpes.",
+    "version": 4,
+    "shots": 7,
+    "solution": [
+      "BD",
+      "ET"
+    ],
+    "bestDistance": 0
+  },
+  {
+    "id": "2026-11-23-h4-v4",
+    "date": "2026-11-23",
+    "mode": "ranking",
+    "hole": 4,
+    "catalogId": "world-population-2023",
+    "target": 12,
+    "prompt": "¿Cuál es el 12.º país más poblado del mundo?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-23-h5-v4",
+    "date": "2026-11-23",
+    "mode": "ranking",
+    "hole": 5,
+    "catalogId": "pixar-first-films",
+    "target": 12,
+    "prompt": "¿Qué película de Pixar se estrenó en 2011?",
+    "version": 4,
+    "shots": 1
+  },
+  {
+    "id": "2026-11-23-h6-v4",
+    "date": "2026-11-23",
+    "mode": "ranking",
+    "hole": 6,
+    "catalogId": "first-world-cup-title",
+    "target": 7,
+    "prompt": "¿Qué selección ganó su primer Mundial en 1998?",
+    "version": 4,
+    "shots": 1
+  }
+]
