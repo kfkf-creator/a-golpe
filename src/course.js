@@ -34,7 +34,6 @@ export function courseSVG({id='course',hero=false,ballX=120,ballY=260,label='Cam
  <g class="impact" opacity="0" stroke="#fffdf1" stroke-width="3" stroke-linecap="round"><path d="M104 244l-8-8m19 3-1-10m15 13 6-8"/></g>
  <ellipse class="ball-shadow" cx="${ballX}" cy="267" rx="10" ry="3" fill="#214c35" opacity=".25"/>
  <circle class="golf-ball" cx="${ballX}" cy="${ballY}" r="7" fill="url(#${id}-ball)" stroke="#e2e2cf" stroke-width=".6"/>
- <g fill="#365d44" font-family="Arial,sans-serif" font-size="11" letter-spacing="2"><text x="120" y="298" text-anchor="middle">SALIDA</text><text x="650" y="322" text-anchor="middle">${hero?'EL OBJETIVO':'EL HOYO'}</text></g>
  <g fill="#416a4c" opacity=".55"><path d="M274 173l4-8 4 9m-97 169 3-8 5 8m439 24 5-9 4 9m-275 2 3-7 4 7" stroke="#416a4c" stroke-width="2" fill="none"/></g>
  </svg>`;
 }
