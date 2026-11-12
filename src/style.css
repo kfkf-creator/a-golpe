@@ -73,3 +73,113 @@
   line-height: 1.18;
   color: var(--ink);
 }
+.round-summary { margin: 1rem 0; padding: 1rem; background: #eff2df; border-radius: 12px; }
+.round-summary p { margin: .4rem 0; }
+.round-summary .button { display: flex; margin-top: .65rem; }
+.round-summary ol { list-style: none; padding: 0; margin: .7rem 0 0; }
+.round-summary li { display: flex; gap: .5rem; justify-content: space-between; padding: .35rem 0; }
+.hole-switch { flex-wrap: wrap; justify-content: center; }
+.hole-switch a { text-align: center; }
+.daily-section .section-title p { margin: .25rem 0 0; color: var(--ink); }
+.mode-card-par { background: #194e3c; }
+.mode-card-blind { background: #253f32; }
+.mode-card-under { background: #3f6743; }
+.mode-card-par .card-emblem { color: #d8edaf; }
+.mode-card-blind .card-emblem { color: #cbdac3; }
+.mode-card-under .card-emblem { color: #fff0bd; }
+.next-hole {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ margin-top: 1.25rem;
+ min-height: 50px;
+}
+.share-compact {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ column-gap: 1.4rem;
+ row-gap: .25rem;
+ margin: .4rem 0 0;
+}
+.share-compact .text-button {
+ display: inline-flex;
+ align-items: center;
+ gap: .4rem;
+ min-height: 40px;
+ font-size: .78rem;
+}
+.share-compact textarea { flex-basis: 100%; }
+.round-card-page { max-width: 760px; margin-inline: auto; }
+.round-card-stats {
+ display: grid;
+ grid-template-columns: repeat(3, minmax(0,1fr));
+ gap: .5rem;
+ margin: 1.5rem 0;
+}
+.round-card-stats > div {
+ background: #edf1df;
+ border-radius: 10px;
+ padding: .85rem;
+ display: grid;
+ align-content: start;
+ gap: .25rem;
+}
+.round-card-stats strong { color: var(--green); font-size: 1.55rem; }
+.round-card-stats span { font-size: .78rem; line-height: 1.25; }
+.round-card-holes {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ border: 1px solid #dce2ce;
+ background: var(--paper);
+ border-radius: 12px;
+}
+.round-card-holes li+li { border-top: 1px solid #e1e5d6; }
+.round-card-holes a {
+ display: grid;
+ grid-template-columns: auto minmax(0,1fr) minmax(0,1fr) auto;
+ align-items: center;
+ gap: .75rem;
+ padding: .8rem .9rem;
+ text-decoration: none;
+ color: var(--ink);
+}
+.round-card-holes a:hover { background: #edf1df; }
+.round-card-holes small { display: block; margin-top: .15rem; }
+.round-card-holes b { text-align: right; font-size: .86rem; }
+.round-hole-number {
+ border-radius: 50%;
+ background: var(--green);
+ color: #fff;
+ width: 30px;
+ height: 30px;
+ display: grid;
+ place-items: center;
+}
+.share-round > .button { min-height: 48px; font-size: .95rem; }
+@media (max-width: 520px) {
+ .round-card-stats > div { padding: .65rem; }
+ .round-card-holes a { gap: .5rem; padding-inline: .65rem; }
+ .round-card-holes strong { font-size: .9rem; }
+ .round-card-holes b { font-size: .78rem; }
+}
+.my-card-page { max-width: 760px; margin-inline: auto; padding-inline: 16px; }
+.my-card-page > h1 { margin: 0 0 1.15rem; }
+.my-scorecard { border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--paper); }
+.my-scorecard-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.4rem; background: var(--green); color: white; }
+.my-scorecard-head h2 { margin: .2rem 0 0; color: inherit; font-size: clamp(1.65rem, 5vw, 2.2rem); }
+.my-scorecard-head span { font-size: .8rem; }
+.my-scorecard-progress { display: grid; text-align: center; white-space: nowrap; }
+.my-scorecard-progress strong { color: var(--lime); font-size: 1.6rem; }
+.my-scorecard .round-card-holes { border: 0; border-radius: 0; }
+.my-scorecard .round-hole-number:not(.played) { background: #e6ebda; color: var(--green); }
+.my-scorecard-actions { display: flex; flex-wrap: wrap; gap: .6rem; padding: .85rem 1rem; border-top: 1px solid var(--line); }
+.my-card-history { margin-top: 2.25rem; }
+.my-card-history h2 { margin: 0 0 .75rem; }
+.history-day { border-bottom: 1px solid var(--line); }
+.history-day summary { display: flex; justify-content: space-between; align-items: center; gap: .75rem; cursor: pointer; padding: .85rem .2rem; }
+.history-day summary strong::before { content: '▸'; margin-right: .6rem; }
+.history-day[open] summary strong::before { content: '▾'; }
+.history-day summary span, .my-card-empty { color: var(--muted); font-size: .87rem; }
+.history-day .history-entry { margin-bottom: .45rem; }
