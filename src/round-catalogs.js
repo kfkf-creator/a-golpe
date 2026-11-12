@@ -100,10 +100,10 @@ for(const [index,[year,title,value]] of oscarWinners.entries()){
 }
 oscars.universe='Películas premiadas en las ceremonias de 1960 a 2016 y una selección de ganadoras posteriores. Se aceptan títulos originales y nombres en español de muchas películas conocidas.';
 
-const champions=catalog('world-cup-titles-2022','Deporte','Campeones del Mundial','selecciones','Mundiales',
- 'https://www.archives.fifa.com/fifa_world_cup',
- 'Títulos del Mundial masculino hasta Catar 2022, inclusive.',
- [['Brasil',5],['Alemania',4],['Italia',4],['Argentina',3],['Francia',2],['Uruguay',2],['España',1],['Inglaterra',1]],true);
+const champions=catalog('world-cup-titles-2026','Deporte','Campeones del Mundial','selecciones','Mundiales',
+ 'https://inside.fifa.com/organisation/news/spain-crowned-world-cup-2026-champions-new-york-new-jersey',
+ 'Títulos del Mundial masculino hasta la edición de 2026, inclusive.',
+ [['Brasil',5],['Alemania',4],['Italia',4],['Argentina',3],['Francia',2],['Uruguay',2],['España',2],['Inglaterra',1]],true);
 
 const eurovision=catalog('eurovision-wins-2025','Música','Ganadores de Eurovisión','países','victorias',
  'https://www.eurovision.com/eurovision-song-contest/history/',
