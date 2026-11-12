@@ -34,14 +34,14 @@ export function restore(raw,challenge,catalog) {
   if(!value||!Array.isArray(value.picks))return emptyState();
   if(value.picks.length>limitFor(challenge)||new Set(value.picks).size!==value.picks.length||value.picks.some(id=>!catalog.entries.some(e=>e.id===id)))return emptyState();
   const completed=value.picks.length===limitFor(challenge) ||
-   (challenge.mode==='under'&&value.picks.length>0&&(value.completed===true||tally(challenge,catalog,value.picks)?.exact));
+   (challenge.mode==='under'&&value.picks.length>0&&(value.completed===true||tally(challenge,catalog,value.picks).delta>=0));
   return {...emptyState(),picks:value.picks,completed:Boolean(completed),updatedAt:value.updatedAt||null};
  }catch{return emptyState();}
 }
 export function commit(state,id,challenge,catalog,now=new Date().toISOString()) {
  if(state.completed||state.picks.length>=limitFor(challenge)||state.picks.includes(id)||!catalog.entries.some(e=>e.id===id))return state;
  const picks=[...state.picks,id];
- return {picks,completed:picks.length===limitFor(challenge)||(challenge.mode==='under'&&tally(challenge,catalog,picks).exact),updatedAt:now};
+ return {picks,completed:picks.length===limitFor(challenge)||(challenge.mode==='under'&&tally(challenge,catalog,picks).delta>=0),updatedAt:now};
 }
 export function tally(challenge,catalog,picks) {
  if(!picks.length||picks.length>limitFor(challenge))return null;
@@ -52,7 +52,9 @@ export function tally(challenge,catalog,picks) {
 }
 export function score(challenge,catalog,picks,completed=false) {
  if(picks.length!==limitFor(challenge)&&!(challenge.mode==='under'&&completed))return null;
- return tally(challenge,catalog,picks);
+ const result=tally(challenge,catalog,picks);
+ if(!result||challenge.mode!=='under')return result;
+ return {...result,points:Number(result.exact)};
 }
 // First four shots never read values, target or score. Their path depends only on shot number.
 export function ballDestination(challenge,result,shot) {
@@ -69,7 +71,7 @@ export function ballDestination(challenge,result,shot) {
 export function shareText(challenge,catalog,result,context='daily') {
  const mode=modeName(challenge);
  const unit=challenge.mode==='ranking'?'puestos':catalog.unit;
- return `⛳ A Golpe\n${dateLabel(challenge.date)} · ${mode}${context==='practice'?' · Práctica':context==='archive'?' · Archivo':''}\n${result.entries.map(()=> '●').join(' ')} → ⚑\n${result.exact?(challenge.mode==='ranking'?'¡Hoyo en uno!':'¡Diana exacta!'):`A ${formatNumber(result.distance)} ${unit} del hoyo`}${challenge.mode==='under'?` · ${result.entries.length} golpes`:''}\n¿Te has quedado más cerca?`;
+ return `⛳ A Golpe\n${dateLabel(challenge.date)} · ${mode}${context==='practice'?' · Práctica':context==='archive'?' · Archivo':''}\n${result.entries.map(()=> '●').join(' ')} → ⚑\n${result.points===0?'Hoyo fallado · 0 puntos':result.exact?(challenge.mode==='ranking'?'¡Hoyo en uno!':'¡Diana exacta!'):`A ${formatNumber(result.distance)} ${unit} del hoyo`}${challenge.mode==='under'?` · ${result.entries.length} golpes`:''}\n${challenge.mode==='under'?'¿Lo clavas en menos golpes?':'¿Te has quedado más cerca?'}`;
 }
 export function* combinations(entries,k=5,start=0,prefix=[]) {
  if(k===0){yield prefix;return;}
