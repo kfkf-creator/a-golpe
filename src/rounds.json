@@ -70,7 +70,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 13,
-    "prompt": "¿Qué película de Pixar se estrenó en 2012?",
+    "prompt": "¿Cuál fue la decimotercera película que estrenó Pixar? Se estrenó en 2012.",
     "version": 4,
     "shots": 1
   },
@@ -243,7 +243,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 14,
-    "prompt": "¿Qué película de Pixar se estrenó en 2013?",
+    "prompt": "¿Cuál fue la decimocuarta película que estrenó Pixar? Se estrenó en 2013.",
     "version": 4,
     "shots": 1
   },
@@ -328,7 +328,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 3,
-    "prompt": "¿Qué película de Pixar se estrenó en 1999?",
+    "prompt": "¿Cuál fue la tercera película que estrenó Pixar? Se estrenó en 1999.",
     "version": 4,
     "shots": 1
   },
@@ -502,7 +502,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 5,
-    "prompt": "¿Qué película de Pixar se estrenó en 2003?",
+    "prompt": "¿Cuál fue la quinta película que estrenó Pixar? Se estrenó en 2003.",
     "version": 4,
     "shots": 1
   },
@@ -680,7 +680,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 6,
-    "prompt": "¿Qué película de Pixar se estrenó en 2004?",
+    "prompt": "¿Cuál fue la sexta película que estrenó Pixar? Se estrenó en 2004.",
     "version": 4,
     "shots": 1
   },
@@ -755,7 +755,7 @@
     "hole": 4,
     "catalogId": "pixar-first-films",
     "target": 2,
-    "prompt": "¿Qué película de Pixar se estrenó en 1998?",
+    "prompt": "¿Cuál fue la segunda película que estrenó Pixar? Se estrenó en 1998.",
     "version": 4,
     "shots": 1
   },
@@ -857,7 +857,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 8,
-    "prompt": "¿Qué película de Pixar se estrenó en 2007?",
+    "prompt": "¿Cuál fue la octava película que estrenó Pixar? Se estrenó en 2007.",
     "version": 4,
     "shots": 1
   },
@@ -948,7 +948,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 4,
-    "prompt": "¿Qué película de Pixar se estrenó en 2001?",
+    "prompt": "¿Cuál fue la cuarta película que estrenó Pixar? Se estrenó en 2001.",
     "version": 4,
     "shots": 1
   },
@@ -1034,7 +1034,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 7,
-    "prompt": "¿Qué película de Pixar se estrenó en 2006?",
+    "prompt": "¿Cuál fue la séptima película que estrenó Pixar? Se estrenó en 2006.",
     "version": 4,
     "shots": 1
   },
@@ -1212,7 +1212,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 9,
-    "prompt": "¿Qué película de Pixar se estrenó en 2008?",
+    "prompt": "¿Cuál fue la novena película que estrenó Pixar? Se estrenó en 2008.",
     "version": 4,
     "shots": 1
   },
@@ -1291,7 +1291,7 @@
     "hole": 4,
     "catalogId": "pixar-first-films",
     "target": 10,
-    "prompt": "¿Qué película de Pixar se estrenó en 2009?",
+    "prompt": "¿Cuál fue la décima película que estrenó Pixar? Se estrenó en 2009.",
     "version": 4,
     "shots": 1
   },
@@ -1390,7 +1390,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 11,
-    "prompt": "¿Qué película de Pixar se estrenó en 2010?",
+    "prompt": "¿Cuál fue la undécima película que estrenó Pixar? Se estrenó en 2010.",
     "version": 4,
     "shots": 1
   },
@@ -1477,7 +1477,7 @@
     "hole": 5,
     "catalogId": "pixar-first-films",
     "target": 12,
-    "prompt": "¿Qué película de Pixar se estrenó en 2011?",
+    "prompt": "¿Cuál fue la duodécima película que estrenó Pixar? Se estrenó en 2011.",
     "version": 4,
     "shots": 1
   },

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "combination-2026-11-07",
+    "date": "2026-11-07",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "atoms-118-v2",
+    "target": 75,
+    "prompt": "Elige cinco elementos para sumar cerca de 75 protones.",
+    "solution": [
+      "atom-al",
+      "atom-si",
+      "atom-p",
+      "atom-s",
+      "atom-cl"
+    ],
+    "bestDistance": 0,
+    "nearRoutes": 110127
+  },
+  {
+    "id": "ranking-2026-11-07",
+    "date": "2026-11-07",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "medals-2024-gold-v2",
+    "target": 9,
+    "prompt": "¿Qué nombre ocupa el puesto 9?"
+  },
+  {
+    "id": "combination-2026-11-08",
+    "date": "2026-11-08",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "states-area-2010-v1",
+    "target": 750000,
+    "prompt": "Elige cinco estados para sumar cerca de 750000 km².",
+    "solution": [
+      "michigan",
+      "new-jersey",
+      "north-dakota",
+      "tennessee",
+      "washington"
+    ],
+    "bestDistance": 0,
+    "nearRoutes": 480193
+  },
+  {
+    "id": "ranking-2026-11-08",
+    "date": "2026-11-08",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "planets-diameter-v1",
+    "target": 4,
+    "prompt": "¿Qué nombre ocupa el puesto 4?"
+  },
+  {
+    "id": "combination-2026-11-09",
+    "date": "2026-11-09",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "planets-diameter-v1",
+    "target": 246000,
+    "prompt": "Elige cinco planetas para sumar cerca de 246000 km.",
+    "solution": [
+      "venus",
+      "earth",
+      "saturn",
+      "uranus",
+      "neptune"
+    ],
+    "bestDistance": 42,
+    "nearRoutes": 16
+  },
+  {
+    "id": "ranking-2026-11-09",
+    "date": "2026-11-09",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "atoms-118-v2",
+    "target": 17,
+    "prompt": "¿Qué nombre ocupa el puesto 17?"
+  },
+  {
+    "id": "combination-2026-11-10",
+    "date": "2026-11-10",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "medals-2024-gold-v2",
+    "target": 100,
+    "prompt": "Elige cinco delegaciones para sumar cerca de 100 oros.",
+    "solution": [
+      "usa",
+      "aus",
+      "ned",
+      "gbr",
+      "kor"
+    ],
+    "bestDistance": 0,
+    "nearRoutes": 19280
+  },
+  {
+    "id": "ranking-2026-11-10",
+    "date": "2026-11-10",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "states-area-2010-v1",
+    "target": 12,
+    "prompt": "¿Qué nombre ocupa el puesto 12?"
+  },
+  {
+    "id": "combination-2026-11-11",
+    "date": "2026-11-11",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "atoms-118-v2",
+    "target": 90,
+    "prompt": "Elige cinco elementos para sumar cerca de 90 protones.",
+    "solution": [
+      "atom-s",
+      "atom-cl",
+      "atom-ar",
+      "atom-k",
+      "atom-ca"
+    ],
+    "bestDistance": 0,
+    "nearRoutes": 312471
+  },
+  {
+    "id": "ranking-2026-11-11",
+    "date": "2026-11-11",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "medals-2024-gold-v2",
+    "target": 15,
+    "prompt": "¿Qué nombre ocupa el puesto 15?"
+  },
+  {
+    "id": "combination-2026-11-12",
+    "date": "2026-11-12",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "states-area-2010-v1",
+    "target": 900000,
+    "prompt": "Elige cinco estados para sumar cerca de 900000 km².",
+    "solution": [
+      "arkansas",
+      "iowa",
+      "kansas",
+      "montana",
+      "new-jersey"
+    ],
+    "bestDistance": 0,
+    "nearRoutes": 460856
+  },
+  {
+    "id": "ranking-2026-11-12",
+    "date": "2026-11-12",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "planets-diameter-v1",
+    "target": 6,
+    "prompt": "¿Qué nombre ocupa el puesto 6?"
+  },
+  {
+    "id": "combination-2026-11-13",
+    "date": "2026-11-13",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "planets-diameter-v1",
+    "target": 295000,
+    "prompt": "Elige cinco planetas para sumar cerca de 295000 km.",
+    "solution": [
+      "venus",
+      "earth",
+      "mars",
+      "jupiter",
+      "saturn"
+    ],
+    "bestDistance": 172,
+    "nearRoutes": 5
+  },
+  {
+    "id": "ranking-2026-11-13",
+    "date": "2026-11-13",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "atoms-118-v2",
+    "target": 24,
+    "prompt": "¿Qué nombre ocupa el puesto 24?"
+  },
+  {
+    "id": "combination-2026-11-14",
+    "date": "2026-11-14",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "medals-2024-gold-v2",
+    "target": 85,
+    "prompt": "Elige cinco delegaciones para sumar cerca de 85 oros.",
+    "solution": [
+      "usa",
+      "gbr",
+      "ita",
+      "nzl",
+      "can"
+    ],
+    "bestDistance": 0,
+    "nearRoutes": 56600
+  },
+  {
+    "id": "ranking-2026-11-14",
+    "date": "2026-11-14",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "states-area-2010-v1",
+    "target": 25,
+    "prompt": "¿Qué nombre ocupa el puesto 25?"
+  },
+  {
+    "id": "combination-2026-11-15",
+    "date": "2026-11-15",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "atoms-118-v2",
+    "target": 105,
+    "prompt": "Elige cinco elementos para sumar cerca de 105 protones.",
+    "solution": [
+      "atom-k",
+      "atom-ca",
+      "atom-sc",
+      "atom-ti",
+      "atom-v"
+    ],
+    "bestDistance": 0,
+    "nearRoutes": 672295
+  },
+  {
+    "id": "ranking-2026-11-15",
+    "date": "2026-11-15",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "medals-2024-gold-v2",
+    "target": 7,
+    "prompt": "¿Qué nombre ocupa el puesto 7?"
+  },
+  {
+    "id": "combination-2026-11-16",
+    "date": "2026-11-16",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "states-area-2010-v1",
+    "target": 600000,
+    "prompt": "Elige cinco estados para sumar cerca de 600000 km².",
+    "solution": [
+      "alabama",
+      "arkansas",
+      "north-carolina",
+      "north-dakota",
+      "rhode-island"
+    ],
+    "bestDistance": 1,
+    "nearRoutes": 299712
+  },
+  {
+    "id": "ranking-2026-11-16",
+    "date": "2026-11-16",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "planets-diameter-v1",
+    "target": 3,
+    "prompt": "¿Qué nombre ocupa el puesto 3?"
+  },
+  {
+    "id": "combination-2026-11-17",
+    "date": "2026-11-17",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "planets-diameter-v1",
+    "target": 200000,
+    "prompt": "Elige cinco planetas para sumar cerca de 200000 km.",
+    "solution": [
+      "mercury",
+      "venus",
+      "earth",
+      "saturn",
+      "neptune"
+    ],
+    "bestDistance": 197,
+    "nearRoutes": 12
+  },
+  {
+    "id": "ranking-2026-11-17",
+    "date": "2026-11-17",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "atoms-118-v2",
+    "target": 12,
+    "prompt": "¿Qué nombre ocupa el puesto 12?"
+  },
+  {
+    "id": "combination-2026-11-18",
+    "date": "2026-11-18",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "medals-2024-gold-v2",
+    "target": 65,
+    "prompt": "Elige cinco delegaciones para sumar cerca de 65 oros.",
+    "solution": [
+      "fra",
+      "gbr",
+      "kor",
+      "ita",
+      "nzl"
+    ],
+    "bestDistance": 0,
+    "nearRoutes": 341099
+  },
+  {
+    "id": "ranking-2026-11-18",
+    "date": "2026-11-18",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "states-area-2010-v1",
+    "target": 35,
+    "prompt": "¿Qué nombre ocupa el puesto 35?"
+  },
+  {
+    "id": "combination-2026-11-19",
+    "date": "2026-11-19",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "atoms-118-v2",
+    "target": 65,
+    "prompt": "Elige cinco elementos para sumar cerca de 65 protones.",
+    "solution": [
+      "atom-na",
+      "atom-mg",
+      "atom-al",
+      "atom-si",
+      "atom-p"
+    ],
+    "bestDistance": 0,
+    "nearRoutes": 50187
+  },
+  {
+    "id": "ranking-2026-11-19",
+    "date": "2026-11-19",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "medals-2024-gold-v2",
+    "target": 5,
+    "prompt": "¿Qué nombre ocupa el puesto 5?"
+  },
+  {
+    "id": "combination-2026-11-20",
+    "date": "2026-11-20",
+    "mode": "combination",
+    "version": 1,
+    "catalogId": "states-area-2010-v1",
+    "target": 1100000,
+    "prompt": "Elige cinco estados para sumar cerca de 1100000 km².",
+    "solution": [
+      "arizona",
+      "montana",
+      "new-york",
+      "utah",
+      "west-virginia"
+    ],
+    "bestDistance": 0,
+    "nearRoutes": 271828
+  },
+  {
+    "id": "ranking-2026-11-20",
+    "date": "2026-11-20",
+    "mode": "ranking",
+    "version": 1,
+    "catalogId": "planets-diameter-v1",
+    "target": 5,
+    "prompt": "¿Qué nombre ocupa el puesto 5?"
+  }
+]
