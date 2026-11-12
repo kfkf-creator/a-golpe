@@ -40,15 +40,15 @@
     "date": "2026-11-07",
     "mode": "under",
     "hole": 3,
-    "catalogId": "world-cup-titles-2022",
+    "catalogId": "world-cup-titles-2026",
     "target": 12,
     "prompt": "Suma 12 Mundiales con el mínimo de golpes.",
-    "version": 4,
+    "version": 5,
     "shots": 7,
     "solution": [
-      "world-cup-titles-2022-0",
-      "world-cup-titles-2022-1",
-      "world-cup-titles-2022-3"
+      "world-cup-titles-2026-0",
+      "world-cup-titles-2026-1",
+      "world-cup-titles-2026-3"
     ],
     "bestDistance": 0
   },
@@ -109,15 +109,15 @@
     "date": "2026-11-08",
     "mode": "blind",
     "hole": 2,
-    "catalogId": "world-cup-titles-2022",
+    "catalogId": "world-cup-titles-2026",
     "target": 10,
     "prompt": "Suma 10 Mundiales con 3 selecciones.",
-    "version": 4,
+    "version": 5,
     "shots": 3,
     "solution": [
-      "world-cup-titles-2022-1",
-      "world-cup-titles-2022-2",
-      "world-cup-titles-2022-4"
+      "world-cup-titles-2026-1",
+      "world-cup-titles-2026-2",
+      "world-cup-titles-2026-4"
     ],
     "bestDistance": 0
   },
@@ -384,15 +384,15 @@
     "date": "2026-11-11",
     "mode": "under",
     "hole": 3,
-    "catalogId": "world-cup-titles-2022",
+    "catalogId": "world-cup-titles-2026",
     "target": 10,
     "prompt": "Suma 10 Mundiales con el mínimo de golpes.",
-    "version": 4,
+    "version": 5,
     "shots": 7,
     "solution": [
-      "world-cup-titles-2022-1",
-      "world-cup-titles-2022-2",
-      "world-cup-titles-2022-4"
+      "world-cup-titles-2026-1",
+      "world-cup-titles-2026-2",
+      "world-cup-titles-2026-4"
     ],
     "bestDistance": 0
   },
@@ -630,18 +630,18 @@
     "date": "2026-11-14",
     "mode": "blind",
     "hole": 2,
-    "catalogId": "world-cup-titles-2022",
+    "catalogId": "world-cup-titles-2026",
     "target": 18,
     "prompt": "Suma 18 Mundiales con 6 selecciones.",
-    "version": 4,
+    "version": 5,
     "shots": 6,
     "solution": [
-      "world-cup-titles-2022-0",
-      "world-cup-titles-2022-1",
-      "world-cup-titles-2022-2",
-      "world-cup-titles-2022-4",
-      "world-cup-titles-2022-5",
-      "world-cup-titles-2022-6"
+      "world-cup-titles-2026-0",
+      "world-cup-titles-2026-1",
+      "world-cup-titles-2026-3",
+      "world-cup-titles-2026-4",
+      "world-cup-titles-2026-5",
+      "world-cup-titles-2026-6"
     ],
     "bestDistance": 0
   },
@@ -826,16 +826,16 @@
     "date": "2026-11-16",
     "mode": "under",
     "hole": 3,
-    "catalogId": "world-cup-titles-2022",
+    "catalogId": "world-cup-titles-2026",
     "target": 15,
     "prompt": "Suma 15 Mundiales con el mínimo de golpes.",
-    "version": 4,
+    "version": 5,
     "shots": 7,
     "solution": [
-      "world-cup-titles-2022-0",
-      "world-cup-titles-2022-1",
-      "world-cup-titles-2022-2",
-      "world-cup-titles-2022-4"
+      "world-cup-titles-2026-0",
+      "world-cup-titles-2026-1",
+      "world-cup-titles-2026-2",
+      "world-cup-titles-2026-4"
     ],
     "bestDistance": 0
   },
@@ -877,17 +877,17 @@
     "date": "2026-11-17",
     "mode": "par",
     "hole": 1,
-    "catalogId": "world-cup-titles-2022",
+    "catalogId": "world-cup-titles-2026",
     "target": 15,
     "prompt": "Suma 15 Mundiales con 5 selecciones.",
-    "version": 4,
+    "version": 5,
     "shots": 5,
     "solution": [
-      "world-cup-titles-2022-1",
-      "world-cup-titles-2022-2",
-      "world-cup-titles-2022-3",
-      "world-cup-titles-2022-4",
-      "world-cup-titles-2022-5"
+      "world-cup-titles-2026-1",
+      "world-cup-titles-2026-2",
+      "world-cup-titles-2026-3",
+      "world-cup-titles-2026-4",
+      "world-cup-titles-2026-5"
     ],
     "bestDistance": 0
   },
@@ -1092,18 +1092,18 @@
     "date": "2026-11-19",
     "mode": "under",
     "hole": 3,
-    "catalogId": "world-cup-titles-2022",
+    "catalogId": "world-cup-titles-2026",
     "target": 20,
     "prompt": "Suma 20 Mundiales con el mínimo de golpes.",
-    "version": 4,
+    "version": 5,
     "shots": 7,
     "solution": [
-      "world-cup-titles-2022-0",
-      "world-cup-titles-2022-1",
-      "world-cup-titles-2022-2",
-      "world-cup-titles-2022-3",
-      "world-cup-titles-2022-4",
-      "world-cup-titles-2022-5"
+      "world-cup-titles-2026-0",
+      "world-cup-titles-2026-1",
+      "world-cup-titles-2026-2",
+      "world-cup-titles-2026-3",
+      "world-cup-titles-2026-4",
+      "world-cup-titles-2026-5"
     ],
     "bestDistance": 0
   },
@@ -1251,19 +1251,19 @@
     "date": "2026-11-21",
     "mode": "blind",
     "hole": 2,
-    "catalogId": "world-cup-titles-2022",
+    "catalogId": "world-cup-titles-2026",
     "target": 20,
     "prompt": "Suma 20 Mundiales con 7 selecciones.",
-    "version": 4,
+    "version": 5,
     "shots": 7,
     "solution": [
-      "world-cup-titles-2022-0",
-      "world-cup-titles-2022-1",
-      "world-cup-titles-2022-2",
-      "world-cup-titles-2022-3",
-      "world-cup-titles-2022-4",
-      "world-cup-titles-2022-6",
-      "world-cup-titles-2022-7"
+      "world-cup-titles-2026-0",
+      "world-cup-titles-2026-1",
+      "world-cup-titles-2026-2",
+      "world-cup-titles-2026-4",
+      "world-cup-titles-2026-5",
+      "world-cup-titles-2026-6",
+      "world-cup-titles-2026-7"
     ],
     "bestDistance": 0
   },
