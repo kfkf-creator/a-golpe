@@ -1,3 +1,4 @@
+import {catalogs as classicCatalogs} from './data.js';
 import {cityRows,populationRows} from './round-source-data.js';
 import {oscarWinners} from './oscar-winners.js';
 import {normalize} from './core.js';
@@ -137,4 +138,4 @@ const firstCup=catalog('first-world-cup-title','Deporte','Primer Mundial ganado'
  'Orden del primer título de cada selección en el Mundial masculino hasta 2022.',
  [['Uruguay',1930],['Italia',1934],['Alemania',1954],['Brasil',1958],['Inglaterra',1966],['Argentina',1978],['Francia',1998],['España',2010]]);
 
-export const roundCatalogs=Object.fromEntries([city,countries,oscars,champions,eurovision,films,planets,planetSizes,firstCup].map(c=>[c.id,c]));
+export const roundCatalogs={...classicCatalogs,...Object.fromEntries([city,countries,oscars,champions,eurovision,films,planets,planetSizes,firstCup].map(c=>[c.id,c]))};

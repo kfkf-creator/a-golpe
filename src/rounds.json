@@ -168,7 +168,7 @@
     "hole": 6,
     "catalogId": "first-world-cup-title",
     "target": 3,
-    "prompt": "¿Qué selección ganó su primer Mundial en 1954?",
+    "prompt": "¿Cuál fue la tercera selección en ganar un Mundial masculino?",
     "version": 4,
     "shots": 1
   },
@@ -425,7 +425,7 @@
     "hole": 6,
     "catalogId": "first-world-cup-title",
     "target": 1,
-    "prompt": "¿Qué selección ganó el primer Mundial?",
+    "prompt": "¿Cuál fue la primera selección en ganar un Mundial masculino?",
     "version": 4,
     "shots": 1
   },
@@ -602,7 +602,7 @@
     "hole": 6,
     "catalogId": "first-world-cup-title",
     "target": 8,
-    "prompt": "¿Qué selección ganó su primer Mundial en 2010?",
+    "prompt": "¿Cuál fue la octava selección en ganar un Mundial masculino?",
     "version": 4,
     "shots": 1
   },
@@ -667,10 +667,10 @@
     "date": "2026-11-14",
     "mode": "ranking",
     "hole": 4,
-    "catalogId": "world-population-2023",
-    "target": 4,
-    "prompt": "¿Cuál es el 4.º país más poblado del mundo?",
-    "version": 4,
+    "catalogId": "atoms-118-v2",
+    "target": 8,
+    "prompt": "¿Qué elemento de la tabla periódica tiene 8 protones?",
+    "version": 5,
     "shots": 1
   },
   {
@@ -753,10 +753,10 @@
     "date": "2026-11-15",
     "mode": "ranking",
     "hole": 4,
-    "catalogId": "pixar-first-films",
-    "target": 2,
-    "prompt": "¿Cuál fue la segunda película que estrenó Pixar? Se estrenó en 1998.",
-    "version": 4,
+    "catalogId": "atoms-118-v2",
+    "target": 17,
+    "prompt": "¿Qué elemento tiene 17 protones?",
+    "version": 5,
     "shots": 1
   },
   {
@@ -777,7 +777,7 @@
     "hole": 6,
     "catalogId": "first-world-cup-title",
     "target": 2,
-    "prompt": "¿Qué selección ganó su primer Mundial en 1934?",
+    "prompt": "¿Cuál fue la segunda selección en ganar un Mundial masculino?",
     "version": 4,
     "shots": 1
   },
@@ -786,19 +786,19 @@
     "date": "2026-11-16",
     "mode": "par",
     "hole": 1,
-    "catalogId": "world-population-2023",
-    "target": 500,
-    "prompt": "Suma 500 millones de habitantes con 7 países.",
-    "version": 4,
+    "catalogId": "atoms-118-v2",
+    "target": 75,
+    "prompt": "Suma 75 protones con 7 elementos químicos.",
+    "version": 5,
     "shots": 7,
     "solution": [
-      "IR",
-      "DE",
-      "GB",
-      "FR",
-      "TZ",
-      "ZA",
-      "IT"
+      "atom-n",
+      "atom-o",
+      "atom-ne",
+      "atom-na",
+      "atom-mg",
+      "atom-al",
+      "atom-si"
     ],
     "bestDistance": 0
   },
@@ -866,10 +866,10 @@
     "date": "2026-11-16",
     "mode": "ranking",
     "hole": 6,
-    "catalogId": "planets-from-sun",
-    "target": 4,
-    "prompt": "¿Cuál es el cuarto planeta desde el Sol?",
-    "version": 4,
+    "catalogId": "atoms-118-v2",
+    "target": 6,
+    "prompt": "¿Qué elemento tiene 6 protones?",
+    "version": 5,
     "shots": 1
   },
   {
@@ -946,10 +946,10 @@
     "date": "2026-11-17",
     "mode": "ranking",
     "hole": 5,
-    "catalogId": "pixar-first-films",
-    "target": 4,
-    "prompt": "¿Cuál fue la cuarta película que estrenó Pixar? Se estrenó en 2001.",
-    "version": 4,
+    "catalogId": "atoms-118-v2",
+    "target": 26,
+    "prompt": "¿Qué elemento tiene el número atómico 26?",
+    "version": 5,
     "shots": 1
   },
   {
@@ -959,7 +959,7 @@
     "hole": 6,
     "catalogId": "first-world-cup-title",
     "target": 4,
-    "prompt": "¿Qué selección ganó su primer Mundial en 1958?",
+    "prompt": "¿Cuál fue la cuarta selección en ganar un Mundial masculino?",
     "version": 4,
     "shots": 1
   },
@@ -988,15 +988,15 @@
     "date": "2026-11-18",
     "mode": "blind",
     "hole": 2,
-    "catalogId": "world-population-2023",
-    "target": 150,
-    "prompt": "Suma 150 millones de habitantes con 3 países.",
-    "version": 4,
+    "catalogId": "medals-2024-gold-v2",
+    "target": 25,
+    "prompt": "Suma 25 oros de París 2024 con 3 delegaciones.",
+    "version": 5,
     "shots": 3,
     "solution": [
-      "CO",
-      "SD",
-      "ES"
+      "nzl",
+      "can",
+      "hun"
     ],
     "bestDistance": 0
   },
@@ -1021,10 +1021,10 @@
     "date": "2026-11-18",
     "mode": "ranking",
     "hole": 4,
-    "catalogId": "world-population-2023",
-    "target": 8,
-    "prompt": "¿Cuál es el 8.º país más poblado del mundo?",
-    "version": 4,
+    "catalogId": "states-area-2010-v1",
+    "target": 3,
+    "prompt": "¿Cuál es el tercer estado más grande de Estados Unidos?",
+    "version": 5,
     "shots": 1
   },
   {
@@ -1075,15 +1075,15 @@
     "date": "2026-11-19",
     "mode": "blind",
     "hole": 2,
-    "catalogId": "oscars-favorites",
-    "target": 20,
-    "prompt": "Suma 20 premios Óscar con 3 películas.",
-    "version": 4,
+    "catalogId": "atoms-118-v2",
+    "target": 50,
+    "prompt": "Suma 50 protones con 3 elementos químicos.",
+    "version": 5,
     "shots": 3,
     "solution": [
-      "oscars-favorites-10",
-      "oscars-favorites-11",
-      "oscars-favorites-14"
+      "atom-p",
+      "atom-cl",
+      "atom-ar"
     ],
     "bestDistance": 0
   },
@@ -1136,7 +1136,7 @@
     "hole": 6,
     "catalogId": "first-world-cup-title",
     "target": 5,
-    "prompt": "¿Qué selección ganó su primer Mundial en 1966?",
+    "prompt": "¿Cuál fue la quinta selección en ganar un Mundial masculino?",
     "version": 4,
     "shots": 1
   },
@@ -1199,10 +1199,10 @@
     "date": "2026-11-20",
     "mode": "ranking",
     "hole": 4,
-    "catalogId": "world-population-2023",
-    "target": 10,
-    "prompt": "¿Cuál es el 10.º país más poblado del mundo?",
-    "version": 4,
+    "catalogId": "atoms-118-v2",
+    "target": 79,
+    "prompt": "¿Qué elemento tiene 79 protones?",
+    "version": 5,
     "shots": 1
   },
   {
@@ -1300,10 +1300,10 @@
     "date": "2026-11-21",
     "mode": "ranking",
     "hole": 5,
-    "catalogId": "planet-size-order",
-    "target": 2,
-    "prompt": "¿Cuál es el segundo planeta más grande?",
-    "version": 4,
+    "catalogId": "states-area-2010-v1",
+    "target": 4,
+    "prompt": "¿Cuál es el cuarto estado más grande de Estados Unidos?",
+    "version": 5,
     "shots": 1
   },
   {
@@ -1313,7 +1313,7 @@
     "hole": 6,
     "catalogId": "first-world-cup-title",
     "target": 6,
-    "prompt": "¿Qué selección ganó su primer Mundial en 1978?",
+    "prompt": "¿Cuál fue la sexta selección en ganar un Mundial masculino?",
     "version": 4,
     "shots": 1
   },
@@ -1377,10 +1377,10 @@
     "date": "2026-11-22",
     "mode": "ranking",
     "hole": 4,
-    "catalogId": "world-population-2023",
-    "target": 11,
-    "prompt": "¿Cuál es el 11.º país más poblado del mundo?",
-    "version": 4,
+    "catalogId": "medals-2024-gold-v2",
+    "target": 5,
+    "prompt": "¿Qué delegación quedó quinta en el medallero de París 2024?",
+    "version": 5,
     "shots": 1
   },
   {
@@ -1475,10 +1475,10 @@
     "date": "2026-11-23",
     "mode": "ranking",
     "hole": 5,
-    "catalogId": "pixar-first-films",
-    "target": 12,
-    "prompt": "¿Cuál fue la duodécima película que estrenó Pixar? Se estrenó en 2011.",
-    "version": 4,
+    "catalogId": "atoms-118-v2",
+    "target": 47,
+    "prompt": "¿Qué elemento tiene el número atómico 47?",
+    "version": 5,
     "shots": 1
   },
   {
@@ -1488,7 +1488,7 @@
     "hole": 6,
     "catalogId": "first-world-cup-title",
     "target": 7,
-    "prompt": "¿Qué selección ganó su primer Mundial en 1998?",
+    "prompt": "¿Cuál fue la séptima selección en ganar un Mundial masculino?",
     "version": 4,
     "shots": 1
   }
