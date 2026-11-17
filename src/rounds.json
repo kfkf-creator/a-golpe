@@ -877,17 +877,17 @@
     "date": "2026-11-17",
     "mode": "par",
     "hole": 1,
-    "catalogId": "world-cup-titles-2026",
-    "target": 15,
-    "prompt": "Suma 15 Mundiales con 5 selecciones.",
-    "version": 5,
+    "catalogId": "fruit-name-letters",
+    "target": 30,
+    "prompt": "Suma 30 letras con los nombres de 5 frutas.",
+    "version": 6,
     "shots": 5,
     "solution": [
-      "world-cup-titles-2026-1",
-      "world-cup-titles-2026-2",
-      "world-cup-titles-2026-3",
-      "world-cup-titles-2026-4",
-      "world-cup-titles-2026-5"
+      "fruit-name-letters-0",
+      "fruit-name-letters-1",
+      "fruit-name-letters-4",
+      "fruit-name-letters-5",
+      "fruit-name-letters-6"
     ],
     "bestDistance": 0
   },
@@ -896,19 +896,15 @@
     "date": "2026-11-17",
     "mode": "blind",
     "hole": 2,
-    "catalogId": "oscars-favorites",
-    "target": 50,
-    "prompt": "Suma 50 premios Óscar con 7 películas.",
-    "version": 4,
-    "shots": 7,
+    "catalogId": "euro-coin-values",
+    "target": 75,
+    "prompt": "Suma 75 céntimos con 3 monedas de distinto valor.",
+    "version": 5,
+    "shots": 3,
     "solution": [
-      "oscars-favorites-7",
-      "oscars-favorites-8",
-      "oscars-favorites-10",
-      "oscars-favorites-11",
-      "oscars-favorites-12",
-      "oscars-favorites-13",
-      "oscars-favorites-14"
+      "euro-coin-values-2",
+      "euro-coin-values-4",
+      "euro-coin-values-5"
     ],
     "bestDistance": 0
   },
@@ -917,16 +913,14 @@
     "date": "2026-11-17",
     "mode": "under",
     "hole": 3,
-    "catalogId": "eurovision-wins-2025",
-    "target": 20,
-    "prompt": "Suma 20 victorias en Eurovisión con el mínimo de golpes.",
-    "version": 4,
-    "shots": 7,
+    "catalogId": "chess-starting-pieces",
+    "target": 10,
+    "prompt": "Suma 10 piezas iniciales de un bando de ajedrez con el mínimo de golpes.",
+    "version": 5,
+    "shots": 6,
     "solution": [
-      "eurovision-wins-2025-2",
-      "eurovision-wins-2025-3",
-      "eurovision-wins-2025-4",
-      "eurovision-wins-2025-5"
+      "chess-starting-pieces-0",
+      "chess-starting-pieces-1"
     ],
     "bestDistance": 0
   },
@@ -935,10 +929,10 @@
     "date": "2026-11-17",
     "mode": "ranking",
     "hole": 4,
-    "catalogId": "world-population-2023",
-    "target": 7,
-    "prompt": "¿Cuál es el 7.º país más poblado del mundo?",
-    "version": 4,
+    "catalogId": "rainbow-colour-order",
+    "target": 4,
+    "prompt": "¿Cuál es el cuarto color del arcoíris, contando desde el rojo?",
+    "version": 5,
     "shots": 1
   },
   {
@@ -946,10 +940,10 @@
     "date": "2026-11-17",
     "mode": "ranking",
     "hole": 5,
-    "catalogId": "atoms-118-v2",
-    "target": 26,
-    "prompt": "¿Qué elemento tiene el número atómico 26?",
-    "version": 5,
+    "catalogId": "polygon-side-order",
+    "target": 4,
+    "prompt": "¿Qué polígono va cuarto al ordenarlos por lados, empezando por el triángulo?",
+    "version": 6,
     "shots": 1
   },
   {
@@ -957,10 +951,10 @@
     "date": "2026-11-17",
     "mode": "ranking",
     "hole": 6,
-    "catalogId": "first-world-cup-title",
-    "target": 4,
-    "prompt": "¿Cuál fue la cuarta selección en ganar un Mundial masculino?",
-    "version": 4,
+    "catalogId": "spanish-alphabet-order",
+    "target": 16,
+    "prompt": "¿Qué letra ocupa el puesto 16 del abecedario español?",
+    "version": 5,
     "shots": 1
   },
   {

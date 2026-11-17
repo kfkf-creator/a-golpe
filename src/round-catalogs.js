@@ -138,4 +138,31 @@ const firstCup=catalog('first-world-cup-title','Deporte','Primer Mundial ganado'
  'Orden del primer título de cada selección en el Mundial masculino hasta 2022.',
  [['Uruguay',1930],['Italia',1934],['Alemania',1954],['Brasil',1958],['Inglaterra',1966],['Argentina',1978],['Francia',1998],['España',2010]]);
 
-export const roundCatalogs={...classicCatalogs,...Object.fromEntries([city,countries,oscars,champions,eurovision,films,planets,planetSizes,firstCup].map(c=>[c.id,c]))};
+
+const fruitLetters=catalog('fruit-name-letters','Alimentación','Letras de nombres de frutas','frutas','letras',
+ 'https://dle.rae.es/', 'Número de letras del nombre en español que aparece en el juego. Las tildes no cambian el recuento.',
+ ['Manzana','Pera','Uva','Kiwi','Mango','Plátano','Naranja','Limón','Melón','Sandía','Papaya','Cereza','Fresa','Piña','Coco','Higo','Granada','Mandarina','Melocotón','Albaricoque','Aguacate','Frambuesa','Arándano','Ciruela','Pomelo','Chirimoya','Guayaba','Mora','Membrillo','Lichi'].map(name=>[name,name.length]));
+
+const euroCoins=catalog('euro-coin-values','Vida cotidiana','Valor de las monedas de euro','monedas','céntimos',
+ 'https://www.ecb.europa.eu/euro/coins/html/index.en.html', 'Valor facial en céntimos de las ocho monedas de euro.',
+ [1,2,5,10,20,50].map(value=>[value+(value===1?' céntimo':' céntimos'),value,String(value)]).concat([
+ ['1 euro',100,'100','1 €'],['2 euros',200,'200','2 €']
+ ]));
+
+const chess=catalog('chess-starting-pieces','Juegos','Piezas iniciales de ajedrez','tipos de pieza','piezas',
+ 'https://handbook.fide.com/chapter/e012023', 'Cantidad inicial por tipo de pieza de un solo bando.',
+ [['Peón',8,'Peones'],['Torre',2,'Torres'],['Alfil',2,'Alfiles'],['Caballo',2,'Caballos'],['Rey',1,'Reyes'],['Dama',1,'Reina','Damas']]);
+
+const spectrum=catalog('rainbow-colour-order','Naturaleza','Colores del arcoíris','colores','posición',
+ 'https://www.metoffice.gov.uk/weather/learn-about/weather/optical-effects/rainbows', 'Orden tradicional de los siete colores, del rojo exterior al violeta interior.',
+ [['Rojo',1],['Naranja',2,'Anaranjado'],['Amarillo',3],['Verde',4],['Azul',5],['Añil',6,'Índigo'],['Violeta',7,'Morado']]);
+
+const polygons=catalog('polygon-side-order','Matemáticas','Polígonos por número de lados','polígonos','lados',
+ 'https://www.mathsisfun.com/geometry/polygons.html', 'Polígonos de 3 a 12 lados, ordenados de menor a mayor a partir del triángulo.',
+ [['Triángulo',3],['Cuadrilátero',4,'Tetrágono'],['Pentágono',5],['Hexágono',6],['Heptágono',7],['Octágono',8,'Octógono'],['Eneágono',9,'Nonágono'],['Decágono',10],['Endecágono',11,'Undecágono'],['Dodecágono',12]]);
+
+const alphabet=catalog('spanish-alphabet-order','Lengua','Abecedario español','letras','posición',
+ 'https://www.rae.es/diccionario-estudiante/docs/ortografia.pdf', 'Orden del abecedario español de 27 letras, incluida la eñe.',
+ [...'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ'].map((letter,index)=>[letter,index+1,...(letter==='Ñ'?['eñe']:[])]));
+
+export const roundCatalogs={...classicCatalogs,...Object.fromEntries([city,countries,oscars,champions,eurovision,films,planets,planetSizes,firstCup,fruitLetters,euroCoins,chess,spectrum,polygons,alphabet].map(c=>[c.id,c]))};
